@@ -1,0 +1,266 @@
+/***********************************page.ejs**/
+/*global*/
+* {
+    padding: 0;
+    margin: 0;
+}
+.view-width {
+    max-width:1024px;
+    margin: 0 auto;
+    padding: .5rem
+}
+hr {
+    border-color: rgb(131, 102, 102);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+a {
+    text-decoration: none;
+}
+/*top*/
+.top li {
+    display: inline-block;
+}
+.top a:hover {
+    border-bottom: 1px solid blue;
+}
+.top-nav-right {
+ /*   margin-bottom: -21px; */ /*base on top-nav 's height*/
+    float: right;
+    text-align: right;
+    position: relative;
+}
+#login-box {
+    position: absolute;
+    z-index: 99;
+    top: 2rem;
+    right: 0;
+    padding: 1rem 1.5rem 1.5rem 3rem;
+    background-color: white;
+    border: 1px solid silver;
+}
+
+/*banner*/
+.banner li {
+    display: inline-block;
+}
+.banner a:hover {
+    color: blue;
+    border-bottom: 1px solid blue;
+}
+.banner-nav {
+    text-align: left;
+}
+.banner-nav-right {
+    float: right;
+    text-align: right;
+    position: relative;
+}
+
+/*main*/
+.posts-ul {
+    list-style-type: none;
+    word-break: break-word;
+    border-bottom: 1px solid silver;
+    padding-bottom: .75rem;
+}
+.posts-ul li {
+    padding-top: 1px;
+}
+.no-more {
+    list-style: none;
+    text-align: center;
+    font-style: italic;
+}
+.a-no-underline {
+    color: inherit;
+    text-decoration: none;
+}
+.a-no-underline:hover {
+    text-decoration-line: underline;
+}
+.light {
+    font-weight: 100;
+    color: rgb(131, 102, 102);
+    font-size: small;
+}
+.abstract {
+    font-style: italic;
+    font-size: small;
+    border-left: .25rem solid silver;
+    padding-left: .5rem;
+    max-height: 4rem;
+    overflow: hidden;
+}
+.abstract p {
+    display: inline;
+    margin-right: .5rem;
+}
+.abstract img {
+    float: left;
+    max-height: 4rem;
+    margin: 0 .75rem;
+}
+#pager {
+    text-align: left;
+    font-style: italic;
+}
+#pager li{
+    display: inline-block;
+}
+#pager li a:hover {
+    border-bottom: 1px solid blue;
+}
+
+.less-width {
+    width: 2rem;
+}
+
+/*foot*/
+.foot {
+    text-align: center;
+    font-size: small;
+}
+.foot a:hover {
+    color: blue;
+    border-bottom: 1px solid blue;
+}
+.foot p {
+    font-style: italic;
+}
+.foot li {
+    display: inline-block;
+}
+
+/***********************************************post.ejs**/
+/*top*/
+.breadcrums a{
+    text-decoration-line: none;
+}
+
+/*main*/
+.post-ground {
+
+}
+.post-ground div {
+    padding-top: .5rem;
+}
+.post-ground img {
+    max-height: 32rem;
+}
+.replies-ul {
+    margin-inline-start: ;
+    list-style-type: none;
+    word-break: break-word;
+}
+.replies-ul li {
+    padding-top: 1px;
+}
+.replies-ul li img {
+    border: 1px solid silver;
+    border-radius: 3px;
+    padding: 1px;
+    max-height: 32rem;
+    max-width: 90%;
+}
+.reply-content-wrapper{
+    border-left: 1px solid silver;
+    padding-left: .75rem;
+    padding-top: .5rem;
+}
+
+.no-more {
+    list-style: none;
+    text-align: center;
+    font-style: italic;
+    color: silver;
+}
+.reply-button-wrapper {
+    float: right;
+    text-align: right;
+}
+.replies-ul div:hover .good-button{
+    visibility: visible;
+}
+
+.discuz-ul {
+    inset-inline-start: 3rem;
+    list-style-type: none;
+    word-break: break-word;
+}
+.discuz-ul li {
+    padding-left: 1rem;
+    margin-top: .15rem;
+    font-size: small;
+}
+.discuz-ul li:hover .good-button {
+    visibility: visible;
+}
+.less-top-margin{
+    text-align: right;
+    margin-top: -1rem;
+}
+.discuz-input {
+    text-align: left;
+    display: none;
+    margin-top: -1rem;
+}
+.good-button {
+    border-style: none;
+    color: blue;
+    font-style: italic;
+    margin-left: .5rem;
+    background-color: inherit;
+    visibility: visible;
+}
+.good-button:hover {
+    color:gray;
+}
+.show {
+    visibility: visible;
+}
+
+.editor-reply {
+    margin-top: 1rem;
+}
+.editor-reply input,textarea {
+    font-size: large;
+}
+.v-align-top {
+    vertical-align: top;
+}
+/*hidden delete button*/
+.hidden-delete .delete {
+    display: none;
+}
+
+/*****************************************************user.ejs**/
+.user-replies-ul,.user-posts-ul {
+    margin-inline-start: 1rem;
+
+}
+.margin-top-rem {
+    margin-top:2rem;
+}
+
+/***************************************************editor.ejs**/
+/*main*/
+.editor-post-wrapper {
+    text-align: center;
+}
+.editor-post {
+    display: inline-block;
+    text-align: left;
+}
+.editor-post input,textarea,select,option {
+    font-size: large;
+}
+.v-align-top {
+    vertical-align: top;
+}
+.editor-tip {
+    font-style: italic;  
+    font-size: small;
+    background-color: bisque;
+}

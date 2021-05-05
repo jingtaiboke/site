@@ -1,0 +1,70 @@
+::selection {
+ 	background-color: #20838e;
+    color: white;
+}
+body {
+	font-family: Helvetica,Arial,sans-serif;
+}
+.top {
+    background-color: #20838e;
+    color: white;
+}
+.top a {
+    color: white;
+}
+.top a:hover {
+    border-color: white;
+}
+.top-nav-right {
+    color: black;
+}
+#login-box a {
+    color: black;
+}
+#login-box a:hover {
+    color: blue;
+}
+.good-button-top {
+    font-style: normal;
+    color: white;
+    border-style: none;
+    background-color: inherit;
+}
+.good-button:hover {
+    border-bottom: white 1px solid;
+}
+.good-button-top:hover {
+    border-bottom: 1px solid white;
+}
+
+.banner {
+    color: #20838e;
+}
+.banner a:hover {
+    border-color: #20838e;
+}
+
+.a-no-underline:hover {
+   
+}
+.a-no-underline>p:hover{
+    color:#20838e;
+}
+
+#pager a li:hover{
+    border-bottom: 1px solid #20838e;
+}
+
+.light {
+    margin-right: .5rem;
+}
+
+.replies-ul li:hover {
+    background: aliceblue;
+}
+.posts-ul li:hover {
+    background-color: aliceblue;
+}
+.user-posts-ul li:hover ,.user-replies-ul li:hover {
+    background-color: aliceblue;
+}
